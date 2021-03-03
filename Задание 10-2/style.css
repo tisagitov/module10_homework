@@ -1,0 +1,29 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+body {
+  background: #ffa69e;
+}
+
+.btn {
+  line-height: 20px;
+  width: 300px;
+  height: 60px;
+  margin: 30px auto;
+  background: #380036;
+  color: #fff;
+  cursor: pointer;
+  border: 3px solid indianred;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  transform: scale(1.01);
+}
